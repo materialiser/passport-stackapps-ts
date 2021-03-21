@@ -1,0 +1,48 @@
+{
+  "name": "passport-stackapps-typescript",
+  "version": "1.0.0",
+  "description": "Stack Exchange authentication strategy for Passport.js written in Typescript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc",
+    "build": "tsc"
+  },
+  "author": {
+    "name": "Leo Seccia",
+    "email": "developers@materialiser.co.uk",
+    "url": "https://github.com/materialiser",
+    "company": "Materialiser Ltd."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/materialiser/passport-stackapps-typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/materialiser/passport-stackapps-typescript"
+  },
+  "homepage": "https://github.com/materialiser/passport-stackapps-typescript",
+  "keywords": [
+    "passport",
+    "strategy",
+    "passport-strategy",
+    "oauth2",
+    "oauth",
+    "stack-exchange",
+    "stack-overflow",
+    "stackoverflow",
+    "stackexchange",
+    "stackapps"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "passport": "^0.4.1",
+    "passport-oauth": "^1.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.5"
+  },
+  "files": ["./dist"]
+}
